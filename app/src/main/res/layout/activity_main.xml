@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btnCaptureImage"
+        android:layout_width="94dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="156dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="3dp"
+        android:contentDescription="Captures Image"
+        app:srcCompat="@drawable/ic_instagram_new_post_outline_24" />
+
+    <ImageView
+        android:id="@+id/instagramLogo"
+        android:layout_width="177dp"
+        android:layout_height="51dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-24dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="Instagram Logo for Improved UI"
+        app:srcCompat="@drawable/ic_nav_logo_whiteout" />
+
+    <EditText
+        android:id="@+id/etDescription"
+        android:layout_width="409dp"
+        android:layout_height="84dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="358dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="Say something about your image..."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="376dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="97dp"
+        android:text="Post" />
+
+    <ImageView
+        android:id="@+id/ivPostImage"
+        android:layout_width="274dp"
+        android:layout_height="241dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="102dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/btnLogout"
+        android:layout_width="67dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/ic_instagram_home_outline_24" />
+</RelativeLayout>
