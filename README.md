@@ -28,13 +28,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Added a chat app!
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/devanshgoyal25/InstagramClone/blob/master/Screen%20Recording%202021-04-09%20at%202.14.06%20PM.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with https://cloudconvert.com/mov-to-gif).
 
